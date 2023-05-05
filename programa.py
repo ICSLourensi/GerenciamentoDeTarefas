@@ -11,6 +11,7 @@ cores = {'limpa': '\033[m',
          'negritoamarelo': '\033[1:33m',
          'negritoazulmarinho': '\033[1:36m'}
 
+print('oi')
 
 print('Bem vindo ao {}TOgabDO{}! O melhor programa via Console de controle de tarefas!'.format(cores['negritoamarelo'], cores['limpa']))
 sleep(0.5)
