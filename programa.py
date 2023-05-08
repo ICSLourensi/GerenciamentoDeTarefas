@@ -5,15 +5,7 @@ import datetime
 def linha():
     print('-=-' * 30)
 
-cores = {'limpa': '\033[m',
-         'linhaverde': '\033[4:32m',
-         'negritoazul': '\033[1:34m',
-         'negritoamarelo': '\033[1:33m',
-         'negritoazulmarinho': '\033[1:36m'}
-
-print('oi')
-
-print('Bem vindo ao {}TOgabDO{}! O melhor programa via Console de controle de tarefas!'.format(cores['negritoamarelo'], cores['limpa']))
+print('Bem vindo ao {}TOgabDO{}! O melhor programa via Console de controle de tarefas!')
 sleep(0.5)
 print('~~~~ Configurando ambiente ~~~')
 sleep(1)
@@ -24,7 +16,7 @@ cursor = conexao.cursor()
 
 nome = str(input('Digite seu nome completo: '))
 
-print('Olá {}{}{}! Vamos iniciar?'.format(cores['negritoamarelo'], nome, cores['limpa']))
+print('Olá {}{}{}! Vamos iniciar?')
     
 sleep(1)
 
